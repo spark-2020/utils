@@ -32,4 +32,3 @@ gcloud compute instances create tutorial-dev-vm \
 --subnet=default \
 --tags=http-server,https-server \
 --labels=os=ubuntu-18-04-lts,cost-alloc=tutorials,usage=golang,configuration=v1-1-0
-
