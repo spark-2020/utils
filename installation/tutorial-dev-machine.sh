@@ -76,3 +76,7 @@ rm awscliv2.zip
 
 # Install Visual Studio Code
 sudo snap install --classic code
+
+# Install Docker
+sudo apt install docker.io 
+sudo snap install docker
