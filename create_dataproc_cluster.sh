@@ -7,8 +7,6 @@
 REGION='us-central1'
 CLUSTER_NAME='test-wordcount'
 gcloud dataproc clusters create ${CLUSTER_NAME} \
-    --optional-components=ANACONDA,JUPYTER \
-    --enable-component-gateway \
     --image-version=2.0-ubuntu18 \
     --region=${REGION} \
     --initialization-actions=gs://goog-dataproc-initialization-actions-${REGION}/connectors/connectors.sh \
