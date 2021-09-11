@@ -10,7 +10,7 @@ spark = SparkSession \
 
 # Use the Cloud Storage bucket for temporary BigQuery export data used
 # by the connector.
-bucket = "[bucket]"
+bucket = "test_wordcount"
 spark.conf.set('temporaryGcsBucket', bucket)
 
 # Load data from BigQuery.
